@@ -1,0 +1,127 @@
+* {
+     margin:0; 
+    /* padding:0; */
+    box-sizing: border-box;
+    
+    
+}
+body{
+    margin-top: 0;
+    margin-bottom: 0;
+background-color: rgb(240, 234, 234);
+height: 50vh;
+}
+main{
+    /* width:50%; */
+    /* margin: auto; */
+    /* display: flex; */
+    
+
+/* align-items: center; */
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 20%;
+}
+/* Each of the box */
+.sedan-cont{
+    background-color: rgb(245, 160, 3);
+    padding: 2em;
+}
+.suv-cont{
+    background-color: rgb(39, 132, 155);
+    padding: 2em;
+}
+.luxury-cont{
+    background-color: rgb(4, 80, 99);
+    padding: 2em;
+}
+/* General button */
+button{
+    border-radius: 2em;
+    border-style: none;
+    padding: 7px;
+    font-size: 10px;
+    margin-top: 2em;
+    cursor: pointer;
+    
+}
+/* button text colour */
+.btn1{
+    color: rgb(245, 160, 3);
+    }
+.btn2{
+    color: rgb(39, 132, 155);
+}
+
+.btn3{
+    color: rgb(4, 80, 99);
+   
+}
+/* Header of the box Sedan, SUVs, and Luxury */
+h3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color:white
+}
+/* Listed items on each of the box */
+p{
+    color: white
+    
+}
+/* button hover */
+.btn1:hover{
+    background-color: transparent;
+   border: 2px solid white;
+    color: white;
+}
+.btn2:hover{
+    background-color: transparent;
+   border: 2px solid white;
+    color: white;
+}
+.btn3:hover{
+    background-color: transparent;
+   border: 2px solid white;
+    color: white;
+}
+
+@media only screen and (max-width: 831px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 5%; */
+
+  }
+    ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 30px; 
+}
+ 
+body{
+    background-color:rgba(8, 4, 4, 0.877)
+  
+}
+/* split the box to theirs position */
+main{
+    display: grid;
+    grid-template-areas: 
+    'a a b'
+    'c d d'
+    'c e e'
+    ;
+    gap: 20px;
+}
+
+/* Gives padding to all the boxes all at once */
+main div{
+    padding: 6em;
+}
+
+/* Background color for the box*/
+.box-red{
+    background-color: rgb(247, 25, 25);
+    grid-area: a;
+}
+.box-orange{
+    background-color: orange;
+    grid-area: b;
+}
+.box-green{
+    background-color: rgb(13, 182, 13);
+    grid-area: c;
+}
+.box-blue1{
+    background-color: rgb(13, 182, 160);
+    grid-area: d;
+}
+.box-blue2{
+    background-color: rgb(13, 182, 160);
+    grid-area: e;
+}
